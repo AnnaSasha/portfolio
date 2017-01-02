@@ -4,7 +4,7 @@
         <title>Portfolio</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="master/css.css">
+        <link rel="stylesheet" href="css.css">
         <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
         <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Ek+Mukta:400,300,200' rel='stylesheet' type='text/css'>
@@ -14,6 +14,7 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     </head>
     <body>
+        <p><a name="AboutMe"></a></p>
         <header class="site-header-wrap">
             <div class="site-header">
                 <a class="site-logo" href="#"><span>Cute Bird</span></a>
@@ -23,7 +24,7 @@
         <div class="menu-wrap"> <!-- перенести в хедер!!! -->
             <nav class="menu">
                 <ul class="clearfix">
-                    <li><a href="#">About Me</a></li>
+                    <li><a href="#AboutMe">About Me</a></li>
                     <li><a href="#Slider">My projects</a></li>
                     <li><a href="#">Find me</a></li>
                     <li><a href="#">Usefull links</a></li>
@@ -33,35 +34,23 @@
         </div>
             <div class="HzLine"></div>
         <section class="section-intro wrap">
-            <div class="intro">
-                <div class="ggg"><p>Web Developing enthusiast with constant desire of learning smth new.</p>
+            <div class="intro"> <!-- текст выходит за рамки -->
+                <p>Web Developing enthusiast with constant desire of learning smth new.</p>
                 <p>Welcome to my Portfolio!</p>
                 <p>My name is Anya and I live in Poland.</p>
                 <p>I have ridiculously big amount of hobbies and dreams. &#9786;</p>
-                </div>
             </div>
         </section>
         <div class="HzLine"></div>
         <p><a name="Slider"></a></p>
         <section class="projects">
-            <div id="image-slider">
-                <div id="slide-frame">
-                    <a href="http://codepen.io/AnnaSasha/full/gwWJog/" target="_blank"><img src="Tribute.png" alt="" /></a>
-                <div id="slides">
-                    <a href="http://codepen.io/AnnaSasha/full/gwWJog/" target="_blank"><img id="slide1" src="Tribute.png" alt="" /></a>
-                    <img id="slide2" src="Logo.png" alt="" />
-                    <img id="slide3" src="Logo.png" alt="" />
-                    <img id="slide4" src="Logo.png" alt="" />
-                    <img id="slide5" src="Logo.png" alt="" />
-                </div>
-            </div>
-            <div id="navigation">
-                <a href="#slide1">1</a>
-                <a href="#slide2">2</a>
-                <a href="#slide3">3</a>
-                <a href="#slide4">4</a>
-                <a href="#slide5">5</a>
-            </div>
+            <div class="blocks">
+                <div class="bl block1"><a title="Tribute page"></a></div>
+                <div class="bl block2"></div>
+                <div class="bl block3"></div>
+                <div class="bl block4"></div>
+                <div class="bl block5"></div>
+                <div class="bl block6"></div>
             </div>
         </section>
             <script>
