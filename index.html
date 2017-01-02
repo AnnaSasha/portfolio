@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css.css">
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Ek+Mukta:400,300,200' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=PT+Sans:700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Lora:400italic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    </head>
+    <body>
+        <header class="site-header-wrap">
+            <div class="site-header">
+                <a class="site-logo" href="#"><span>Cute Bird</span></a>
+                <span class="site-tagline">Playground of a young Web Designer</span>
+            </div>
+        </header>
+        <div class="menu-wrap"> <!-- перенести в хедер!!! -->
+            <nav class="menu">
+                <ul class="clearfix">
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#Slider">My projects</a></li>
+                    <li><a href="#">Find me</a></li>
+                    <li><a href="#">Usefull links</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+            <div class="HzLine"></div>
+        <section class="section-intro wrap">
+            <div class="intro">
+                <div class="ggg"><p>Web Developing enthusiast with constant desire of learning smth new.</p>
+                <p>Welcome to my Portfolio!</p>
+                <p>My name is Anya and I live in Poland.</p>
+                <p>I have ridiculously big amount of hobbies and dreams. &#9786;</p>
+                </div>
+            </div>
+        </section>
+        <div class="HzLine"></div>
+        <p><a name="Slider"></a></p>
+        <section class="projects">
+            <div id="image-slider">
+                <div id="slide-frame">
+                    <a href="http://codepen.io/AnnaSasha/full/gwWJog/" target="_blank"><img src="Tribute.png" alt="" /></a>
+                <div id="slides">
+                    <a href="http://codepen.io/AnnaSasha/full/gwWJog/" target="_blank"><img id="slide1" src="Tribute.png" alt="" /></a>
+                    <img id="slide2" src="Logo.png" alt="" />
+                    <img id="slide3" src="Logo.png" alt="" />
+                    <img id="slide4" src="Logo.png" alt="" />
+                    <img id="slide5" src="Logo.png" alt="" />
+                </div>
+            </div>
+            <div id="navigation">
+                <a href="#slide1">1</a>
+                <a href="#slide2">2</a>
+                <a href="#slide3">3</a>
+                <a href="#slide4">4</a>
+                <a href="#slide5">5</a>
+            </div>
+            </div>
+        </section>
+            <script>
+!function($){
+   $(document).on('click', 'a[href^=#]', function () {
+        $('html, body').animate({ scrollTop:  $('a[name="'+this.hash.slice(1)+'"]').offset().top }, 1000 ); 
+        return false;
+    });
+}(jQuery);
+    </script>
+    </body>
+</html>
