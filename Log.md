@@ -11,8 +11,8 @@ Link to work: <a href="http://ru.stackoverflow.com/questions/148638/%D0%9B%D0%BE
 <h1>Day 2: January 3rd, 2017</h1>
 Today's Progress: Finished with Projects section for now, social links with icons done. 
 
-Thougts: Have troubles with responsive design. Thinking about functional footer - plan for today. Going through selectors tutorials and pseudo elements which is very helpful. 
+Thougts: Have troubles with responsive design. Thinking about functional footer - plan for tomorrow. Going through selectors tutorials and pseudo elements which is very helpful. 
 
-Work on in the future. Responsiveness and Bootstrap. 
+Work on in the future: Responsiveness and Bootstrap. 
 
 Link to work: <a href="http://getbootstrap.com/getting-started/">Bootstrap for Noobs</a> and <a href="https://youtu.be/_ALeswWzpBo">Github for Noobs</a>
