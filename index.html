@@ -1,77 +1,312 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Portfolio</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css.css">
-        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-        <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Ek+Mukta:400,300,200' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=PT+Sans:700' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Lora:400italic' rel='stylesheet' type='text/css'>
-        <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    </head>
-    <body>
-        <p><a name="AboutMe"></a></p>
-        <header class="site-header-wrap">
-            <div class="site-header">
-                <a class="site-logo" href="#"><span>Pink Bird</span></a>
-                <span class="site-tagline">Playground of a young Web Designer</span>
-            </div>
-        </header>
-        <div class="menu-wrap"> <!-- перенести в хедер!!! -->
-            <nav class="menu">
-                <ul class="clearfix">
-                    <li><a href="#AboutMe">About Me</a></li>
-                    <li><a href="#Slider">My projects</a></li>
-                    <li><a href="#Social">Find me</a></li>
-                    <li><a href="#">Usefull links</a></li>
-                    <li><a href="#">Contacts</a></li>
-                </ul>
-            </nav>
-        </div>
-            <div class="HzLine"></div>
-        <section class="section-intro wrap">
-            <div class="intro"> <!-- текст выходит за рамки -->
-                <p>Web Developing enthusiast with constant desire of learning smth new.</p>
-                <p>Welcome to my Portfolio!</p>
-                <p>My name is Anya and I live in Poland.</p>
-                <p>I have ridiculously big amount of hobbies and dreams. &#9786;</p>
-            </div>
-        </section>
-        <div class="HzLine"></div>
-        <p><a name="Slider"></a></p>
-        <section class="projects">
-            <div class="blocks">
-                <a href="http://codepen.io/AnnaSasha/full/gwWJog/" title="Tribute page" target="_blank"><div class="bl block1"></div></a>
-                <a href="#"><div class="bl block2"></div></a>
-                <a href="#"><div class="bl block3"></div></a>
-                <a href="#"><div class="bl block4"></div></a>
-                <a href="#"><div class="bl block5"></div></a>
-                <a href="#"><div class="bl block6"></div></a>
-            </div>
-        </section>
-        <p><a name="Social"></a></p>
-        <section class="social">
-            <div class="imgs">
-                <h1>Join me:</h1>
-                <a href="https://www.facebook.com/anna.galkina.750" target="_blank"><div class="img img1"><img alt="facebook" src="fb.png" width="150" height="150"></div></a>
-                <a href="https://github.com/AnnaSasha" target="_blank"><div class="img img2"><img alt="github" src="git.png" width="150" height="150"></div></a>
-                <a href="https://twitter.com/BubbleAGV" target="_blank"><div class="img img3"><img alt="tweeter" src="tw.png" width="150" height="150"></div></a>
-                <a href="https://vk.com/id184675074" target="_blank"><div class="img img4"><img alt="vk" src="vk.png" width="150" height="150"></div></a>
-                <a href="#"><div class=""><img></div></a>
-                <a href="#"><div class=""><img></div></a>
-            </div>
-        </section>
-            <script>
-!function($){
-   $(document).on('click', 'a[href^=#]', function () {
-        $('html, body').animate({ scrollTop:  $('a[name="'+this.hash.slice(1)+'"]').offset().top }, 1000 ); 
-        return false;
-    });
-}(jQuery);
-    </script>
-    </body>
-</html>
+html,
+body {
+/*    background-color: #E899A9;*/
+    background: #f9def8;
+    height: 100%;
+    width: 100%;
+}
+
+body, input {
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+/*    color: #525252;*/
+    line-height: 100%;
+}
+/*убирает отступы везде, по сути обнуляет, также наследует шрифты*/
+*,
+*:before,
+*:after {
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 0px;
+    font: inherit;
+}
+
+body, article, aside, footer, header, hgroup, main, nav, section, div {
+    display: block;
+}
+
+.site-header-wrap {
+/*    margin-bottom: 60px;*/
+    padding: 60px 0px 50px;
+/*    background: #20262c;*/
+/*    border: 1px solid white;*/
+/*    margin-top: 30px;*/
+}
+
+.site-header {
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.site-header .site-nav ul:after, 
+.site-header:after, 
+.main:after, 
+.clearfix:after, 
+.clearfix {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.site-logo:hover {
+    opacity: 0.2;
+}
+.site-logo {
+    width: 1000px;
+    max-width: 100%;
+    height: 100px;
+    display: inline-block;
+    background: url('Logo1.png') no-repeat;
+    background-size: 10%;
+    transition: 1s;
+    -moz-transition: opacity linear 1s;
+    -webkit-transition: opacity linear 1s;
+    -o-transition: opacity linear 1s;
+    -ms-transition: opacity linear 1s;
+    overflow: hidden;
+    margin-left: 100px;
+/*    border: 1px solid white;*/
+}
+
+.site-logo span {
+    display: inline-block;
+    position: relative;
+    top: -20%;
+    margin-left: -150px;
+    opacity: 0.9;
+}
+
+a {
+    text-decoration: none;
+    padding-top: 10px;
+}
+a.site-logo {
+    font-family: PT Sans, sans-serif;
+    line-height: 3em;
+    color: #734971;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 700;
+/*    line-height: 1.1em;*/
+}
+.site-tagline {
+    display: block;
+    margin-left: 100px;
+    opacity: 0.4;
+    font-family: Lora, serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1em;
+    color: #BF82BC;
+}
+.site-header .site-nav {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.menu-wrap {
+    width: 100%;
+/*    box-shadow: 0px 1px 3px rgba(0,0,0,0.2);*/
+    background: #f9def8;
+    display: block;
+    position: fixed;
+    top: 0px;
+    
+}
+.menu {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.menu > ul > li {
+    float: left;
+    display: inline-block;
+    position: relative;
+    padding-left: 40px;
+}
+
+.menu li {
+    margin: 0px;
+    list-style: none;
+    font-family: 'Ek Mukta', sans-serif;
+    font-weight: 300;
+}
+
+ul li,
+ol li {
+    line-height: 1.350em;
+}
+li {
+    text-align: -webkit-match-parent;
+}
+
+.menu > ul > li > a {
+    font-size: 17px;
+    padding: 5px 40px;
+    display: inline-block;
+    text-shadow: 0px 1px 0px rgba(0,0,0,0.4);
+    text-decoration: none;
+}
+
+.menu a {
+    transition: all linear 0.15s;
+    color: #734971;
+}
+
+.menu li:hover > a, .menu .current-item > a {
+	text-decoration:none;
+        animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+        transform: translate3d(0, 0, 0);
+        backface-visibility: hidden;
+        perspective: 1000px;
+        }
+
+        @keyframes shake {
+        10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+          }
+  
+        20%, 80% {
+        transform: translate3d(2px, 0, 0);
+        }
+
+        30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+        }
+
+        40%, 60% {
+        transform: translate3d(4px, 0, 0);
+        }
+    }
+
+/*доработать боксы*/
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+/*	background:#BF82BC;*/
+}
+
+.section-intro {
+    width: 100%;
+    height: 100vh;
+/*    background-color: #734971;*/
+}
+
+.HzLine {
+   background-attachment: scroll;
+   background-clip: border-box;
+    background: linear-gradient(to right,#f9def8,#734971,#f9def8);
+/*    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;*/
+   background-origin: padding-box;
+   background-size: auto;
+   display: block;
+   font-size: 18px;
+   height: 10px;
+   line-height: 27px;
+/*   position: relative;*/
+}
+
+
+.section-intro {
+    height: 65%;
+    width: 100%;
+    background-color: #734971;
+/*    position: relative;*/
+}
+
+
+
+.intro {
+    display: block;
+    margin-left: 200px;
+    font-family: Lora, serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1em;
+    color: #BF82BC;
+}
+
+.intro p {
+    padding-top: 50px;
+    margin-left: -100px;
+}
+
+.projects {
+    height: 100vh;
+}
+
+.blocks {
+    text-align: center;
+}
+
+.bl {
+    height: 200px;
+    width: 25%;
+    margin: 20px;
+    margin-top: 80px;
+    display: inline-block;
+    background: url(Logo.png) 100% 100% no-repeat;
+    background-size: cover;
+-webkit-box-shadow: -4px -1px 14px -4px rgba(115,73,113,1);
+-moz-box-shadow: -4px -1px 14px -4px rgba(115,73,113,1);
+box-shadow: -4px -1px 14px -4px rgba(115,73,113,1);
+}
+
+.block1 {
+    background: url(Tribute.png) 100% 100% no-repeat;
+    background-size: cover;
+}
+
+.social {
+     height: 100vh;
+}
+
+.imgs {
+    height: 500px;
+    width: 100%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.img {
+    height: 200px;
+    margin: 70px;
+    margin-top: 150px;
+    display: inline-block;
+    background-size: cover;
+}
+
+h1 {
+    margin-top: 180px;
+    margin-bottom: -30px;
+    display: block;
+    opacity: 0.6;
+    font-family: Lora, serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 2.5em;
+    color: #BF82BC;
+}
+
+
+
+
+
+
+
+
+
+
