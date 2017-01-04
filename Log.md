@@ -16,3 +16,12 @@ Thougts: Have troubles with responsive design. Thinking about functional footer 
 Work on in the future: Responsiveness and Bootstrap. 
 
 Link to work: <a href="http://getbootstrap.com/getting-started/">Bootstrap for Noobs</a> and <a href="https://youtu.be/_ALeswWzpBo">Github for Noobs</a>
+
+<h1>Day 3: January 4th, 2017</h1>
+Today's Progress: practising Javascript and selectors.
+
+Thougts: Javascript is very difficult for me, but not because I am stupid but because I cannot grasp the whole idea behind the language. Once I do, everything will be much easier. 
+
+Work on in the future: Responsiveness and Bootstrap+ Javascript and pseudo-elements which fascinate me
+
+Link to work: spare time for <a href="http://alistapart.com/article/responsive-web-design">Article on Responsive</a>
