@@ -25,3 +25,12 @@ Thougts: Javascript is very difficult for me, but not because I am stupid but be
 Work on in the future: Responsiveness and Bootstrap+ Javascript and pseudo-elements which fascinate me
 
 Link to work: spare time for <a href="http://alistapart.com/article/responsive-web-design">Article on Responsive</a>
+
+<h1>Day 4: January 5th, 2017</h1>
+Today's Progress: struggling with footer and mirroring images - it appeares that easier to mirror it in Photoshop than CSS.
+
+Thougts: Every day I want to spend more than 1 hour on coding and learning but at the moment it's impossible. 
+
+Work on in the future: Responsiveness again and again and again
+
+Link to work: spare time for <a href="http://alistapart.com/article/responsive-web-design">Article on Responsive</a>
