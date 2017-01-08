@@ -34,3 +34,12 @@ Thougts: Every day I want to spend more than 1 hour on coding and learning but a
 Work on in the future: Responsiveness again and again and again
 
 Link to work: spare time for <a href="http://alistapart.com/article/responsive-web-design">Article on Responsive</a>
+
+<h1>Day 5: January 8th, 2017</h1>
+Today's Progress: managed to set fixed menu so it won't overlap and becomes huge when resizing
+
+Thougts: Took 3 hours to experiment with width but no good result or progress yet. Webpage looks perfect but when making it big - everything falls apart.Want to make it perfect. Found 2 webpages with great layout and responsiveness - learning on them. 
+
+Work on in the future: Responsiveness again and again and again and once more
+
+Link to work: spare time for <a href="http://alistapart.com/article/responsive-web-design">Article on Responsive</a>
