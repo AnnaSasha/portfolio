@@ -43,3 +43,15 @@ Thougts: Took 3 hours to experiment with width but no good result or progress ye
 Work on in the future: Responsiveness again and again and again and once more
 
 Link to work: spare time for <a href="http://alistapart.com/article/responsive-web-design">Article on Responsive</a>
+
+<h1>Day 6-12: January 8th, 2017</h1>
+
+Progress: Potfolio is done, but haven't shared it yet, because at this point I like nothing about it, rest is needed from it. Will get back to it in 2 days and check everything again with "clean" glance. A lot was done; I used viewpoints a lot instead pixels and percentages, I like how even at 500% resolution everything stays in place and has the same dimensions. But it got me thinking, what if I want to make it bigger or smaller, and it won't, it stays the same all the time. I also got back to my installed Ubunutu and I enjoy it more than Windows. When lines of command run on terminal it excites me. 
+
+Plan: 
+<ol>
+<li>next HTML&CSS project won't have viewpoints, in order to learn how to make everything in place with different width and height tools.</li>
+<li>To learn how Javascript works, a lot of numbers scare me and at the moment Javascript for me is all about numbers, but I need to know some basics, at least so I could able to understand someone else's code and get the functioning. Get on FreeCodeCamp Jabascript assignments</li>
+<li>Command Line and Terminal practise. Read more about it and practise coding in it, write some easy scriprs - will be usefull for work as well </li>
+
+No links for today.
