@@ -14,31 +14,38 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     </head>
     <body>
-        <p><a name="AboutMe"></a></p>
-        <header class="site-header-wrap">
-            <div class="site-header">
-                <a class="site-logo" href="#"><span>Pink Bird</span></a>
-                <span class="site-tagline">Playground of a young Web Designer</span>
-            </div>
-        </header>
-        <div class="menu-wrap"> <!-- перенести в хедер!!! -->
-            <nav class="menu">
+        <div class="container">
+            <header class="header-wrap">
+            <div class="push">
+            <div class="menu-wrap">
+              <nav class="menu">
                 <ul class="clearfix">
                     <li><a href="#AboutMe">About Me</a></li>
                     <li><a href="#Slider">My projects</a></li>
                     <li><a href="#Social">Find me</a></li>
-                    <li><a href="#">Usefull links</a></li>
-                    <li><a href="#">Contacts</a></li>
+                    <li><a href="#Footer">Usefull links</a></li>
+                    <li><a href="#Footer">Contacts</a></li>
                 </ul>
-            </nav>
-        </div>
+              </nav>
+            </div>
+            </div>
+                <p><a name="AboutMe"></a></p>
+            <div class="title">
+                <a class="site-logo" href="#"><img src="Logo1.png" alt="logo">
+                <span class="one">P-Bird</span></a>
+                <div class="two">
+                <span class="site-tagline">Playground of a young Web Developer</span>
+                </div>
+            </div>
+            </header>
             <div class="HzLine"></div>
         <section class="section-intro wrap">
             <div class="intro"> <!-- текст выходит за рамки -->
+                <div class="wrap-photo"><img src="photo6.jpg" alt="photo" class="photo"></div>
                 <p>Web Developing enthusiast with constant desire of learning smth new.</p>
                 <p>Welcome to my Portfolio!</p>
                 <p>My name is Anya and I live in Poland.</p>
-                <p>I have ridiculously big amount of hobbies and dreams. &#9786;</p>
+                <p>I have ridiculously big amount of hobbies and dreams.&#9786;</p>
             </div>
         </section>
         <div class="HzLine"></div>
@@ -53,19 +60,51 @@
                 <a href="#"><div class="bl block6"></div></a>
             </div>
         </section>
+        <div class="HzLine"></div>
         <p><a name="Social"></a></p>
         <section class="social">
             <div class="imgs">
                 <h1>Join me:</h1>
-                <a href="https://www.facebook.com/anna.galkina.750" target="_blank"><div class="img img1"><img alt="facebook" src="fb.png" width="150" height="150"></div></a>
-                <a href="https://github.com/AnnaSasha" target="_blank"><div class="img img2"><img alt="github" src="git.png" width="150" height="150"></div></a>
-                <a href="https://twitter.com/BubbleAGV" target="_blank"><div class="img img3"><img alt="tweeter" src="tw.png" width="150" height="150"></div></a>
-                <a href="https://vk.com/id184675074" target="_blank"><div class="img img4"><img alt="vk" src="vk.png" width="150" height="150"></div></a>
+                <a href="https://www.facebook.com/anna.galkina.750" target="_blank"><div class="img img1"><img class="fb" alt="facebook" src="fb.png"></div></a>
+                <a href="https://github.com/AnnaSasha" target="_blank"><div class="img img2"><img class="git" alt="github" src="git.png"></div></a>
+                <a href="https://twitter.com/BubbleAGV" target="_blank"><div class="img img3"><img class="tweet" alt="tweeter" src="tw.png"></div></a>
+                <a href="https://vk.com/id184675074" target="_blank"><div class="img img4"><img class="vk" alt="vk" src="vk.png"></div></a>
                 <a href="#"><div class=""><img></div></a>
                 <a href="#"><div class=""><img></div></a>
             </div>
         </section>
+        <div class="HzLine"></div>
+        <p><a name="Footer"></a></p>
+        <section class="footer-last">
+            <div class="helpfull">
+                <a href="https://www.freecodecamp.com/" target="_blank"><h2>Free Code Camp - the best studying platform.</h2></a>
+                <a href="https://htmlacademy.ru/" target="_blank"><h2>HTML Academy - great school for people who understand Russian.</h2></a>
+                <a href="https://google.com" target="_blank"><h2>Google - godlike. If you don't know something - google it. Most probably someone knows the answer.</h2></a>
+            </div>
+            <div class="clearfix"></div>
+        </section>
+            <footer class="footer-wrapper">
+                <nav class="footer-menu">
+                    <ul class="bottom-menu">
+                        <li><a href="#AboutMe">About Me</a></li>
+                        <li><a href="#Slider">My projects</a></li>
+                        <li><a href="#Social">Find me</a></li>
+                        <li><a href="#Footer">Usefull links</a></li>
+                        <li><a href="#Footer">Contacts</a></li>
+                    </ul>
+                </nav>
+                <p class="contacts">
+                    Thank you for visiting my portfolio. 
+                    If you can't contact me on social media, you can always reach me the old-fashioned way - 
+                    by writing me an email to <span class="email">murchelo73@gmail.com</span>
+                        
+
+                </p>
+            </footer>
+        
+        </div>
             <script>
+        
 !function($){
    $(document).on('click', 'a[href^=#]', function () {
         $('html, body').animate({ scrollTop:  $('a[name="'+this.hash.slice(1)+'"]').offset().top }, 1000 ); 
