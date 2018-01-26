@@ -56,3 +56,30 @@ Plan:
 <li>Command Line and Terminal practise. Read more about it and practise coding in it, write some easy scriprs - will be usefull for work as well </li>
 
 No links for today.
+
+<h1>Day 13: January 26th, 2018</h1>
+
+<p>Regress: I haven't done any code almost for a year. And you know why? Because I have my goals all wrong.</p> 
+
+<p>History lesson: A couple of years ago, in 2015, I was a private Russian and Ukrainian language tutor. I decided to make a single web-page for my future studets to be able to find me and order some lessons. So I found some ancient video on youtube Make your own web page in 20 minutes, or something like that and I dove in. Maybe because I had a lot of free time back then, or because I was a sponge greedy for knowledge, but it was extremely interesting. I spent days learning, found awesome HTML academy lessons, even paid for Premium account for one month, which is unlikely for me because I am a greedy bitch. At noght I was dreaming abount those lessons and tests. I day-dreamed about myself being cool web-developer, programmer or whatever. I was not strong in terms, I'm still not. By the way. today is Januaru 2018 and I still do not have my single web page of a tutor, but I do have portfolio (LOL).</p>
+
+<p>It is obvious that I messed up my goals and started doing stuff for all the wrong reasons.
+At first it was like this:</p>
+<ul>
+	<li>This is so freaking interesting</li>
+	<li>I can create stuff from nothing</li>
+	<li>My imagination is my limit</li>
+	<li>WHen issue fised, you feel like God, and it is for free</li>
+	<li>I can do this is an intoxicating feeling</li>
+	<li>WHy I haven't started it earlier</li>
+</ul>
+<p>and so on andd so on.</p>
+<p>After couple of months, it became this</p>
+<ul>
+	<li>If I do this, I will earn a lot of money</li>
+	<li>Gee, everyone is so stupid around me, and I'm the queen of the world</li>
+	<li>I know nothing, why should I do it</li>
+	<li>To gain something from it, I need to spend 10 hours coding</li>
+</ul>
+<p>You see what happened there? From being nice, fulfilling hobby, my desire to learn and code transformed in desire to make moneay and as soos as possible. I have no one but me to blame.</p>
+<h1>This is hobby for me. Number one goal in it is - how it makes me feel. If I am bored or frustrated, I stop. If I am into it, I will get back to it, to fix whateve I have to fix. Money is good but it is not the goal. Meaningful life is. ANd coding is for free.</h1>
